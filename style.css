@@ -1,0 +1,6 @@
+:root { --bg:#0f172a; --panel:#0b1220; --cell:#0c1726; --text:#e6eef8; }
+body{font-family:system-ui,Segoe UI,Roboto,Arial; background:var(--bg); color:var(--text); margin:0; padding:24px; text-align:center;}
+h1{margin:6px 0 2px; font-size:28px;}
+#board{width:312px; margin:18px auto; display:grid; grid-template-columns:repeat(3,100px); gap:6px;}
+.cell{width:100px;height:100px;background:var(--cell);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:56px;cursor:pointer;user-select:none;}
+#status{font-size:16px; margin-top:8px; color:#9fb0d6;}
